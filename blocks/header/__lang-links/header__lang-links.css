@@ -1,0 +1,10 @@
+.header__lang-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: grid;
+  /* по макету видно что вот он, наш первый грид */
+  grid-auto-flow: column;
+  gap: 18px;
+}

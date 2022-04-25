@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  align-items: flex-end;
+  /* должно работать на выравнивание img */
+  justify-content: center;
+  margin: 0 auto;
+  padding: 28px 48px 0;
+
+  width: calc(100% - 48px*2);
+}
