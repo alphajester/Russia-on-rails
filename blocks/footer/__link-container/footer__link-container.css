@@ -1,0 +1,9 @@
+.footer__link-container {
+  margin-left: 18px;
+
+}
+
+.footer__link-container:first-child {
+  margin-left: 0;
+
+}

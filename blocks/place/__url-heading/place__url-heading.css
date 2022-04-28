@@ -1,0 +1,13 @@
+.place__url-heading {
+  font-size: 12px;
+  line-height: 170%;
+  color: #AAA;
+  letter-spacing: 2px;
+}
+
+.place__url-heading::before {
+  content: "ЗДЕСЬ";
+
+  /* могу оставить? хорошо выглядит. рашн аутентик.
+  к тому же изначально одобрено было назвать репозиторий так как хочется */
+}

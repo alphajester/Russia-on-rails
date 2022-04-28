@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-end;
   /* должно работать на выравнивание img */
-  justify-content: center;
+  justify-content: space-between;
   margin: 0 auto;
   padding: 28px 48px 0;
 
