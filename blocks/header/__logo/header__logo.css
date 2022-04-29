@@ -7,3 +7,10 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+@media screen and (max-width: 424px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+}

@@ -7,3 +7,15 @@
   margin: 8px auto 0;
   max-width: calc(100vw - 16px*2);
 }
+
+@media screen and (max-width: calc(768px + 24px*2)) {
+  .lead__caption {
+    width: calc(100vw - 24px*2);
+  }
+}
+
+@media screen and (max-width: calc(424px + 24px*2)){
+  .lead__caption {
+    width: 424px;
+  }
+}

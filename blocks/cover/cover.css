@@ -12,6 +12,12 @@
   z-index: 0;
 }
 
+@media screen and (max-width: 1184px) {
+  .cover {
+    min-height: 62.5vw;
+  }
+}
+
 .cover::after {
   position: absolute;
   top: 0;

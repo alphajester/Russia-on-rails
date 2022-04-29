@@ -1,10 +1,30 @@
 .header {
   display: flex;
   align-items: flex-end;
-  /* должно работать на выравнивание img */
   justify-content: space-between;
   margin: 0 auto;
-  padding: 28px 48px 0;
+  padding: 28px 0 48px;
 
   width: calc(100% - 48px*2);
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: calc(768px + 48px*2)) {
+  .header {
+    max-width: calc(100% - 24px*2);
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: calc(424px + 24px*2)) {
+  .header {
+    padding-top: 16px;
+    max-width: calc(100% - 16px*2);
+    width: 424px;
+  }
 }

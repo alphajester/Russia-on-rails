@@ -9,3 +9,12 @@
   width: calc(100% - 16px*2);
   /* пока что только усталость от макета)) */
 }
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+     font-size: 40px;
+     line-height: 44px;
+
+     margin-bottom: 16px;
+  }
+}

@@ -9,3 +9,16 @@
 .footer__copyright::before{
   content: '\00a9\00a0'
 }
+
+@media screen and (max-width: 767px) {
+  .footer__copyright{
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer__copyright {
+    margin-top: 48px;
+  }
+}

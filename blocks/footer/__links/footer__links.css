@@ -6,5 +6,8 @@
   align-items: flex-start;
 }
 
-
-/* change for device under 768px */
+@media screen and (max-width: 640px) {
+  .footer__links {
+    flex-direction: column;
+  }
+}

@@ -3,3 +3,9 @@
   gap: 25px;
   align-content: flex-start;
 }
+
+@media screen and (max-width: 768px) {
+  .place__paragraphs {
+    margin: 0 16px;
+  }
+}

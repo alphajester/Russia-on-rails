@@ -8,3 +8,35 @@
   width: calc(100% - 48px*2);
 
 }
+
+@media screen and (max-width: calc(768px + 48px*2)) {
+  .footer {
+    max-width: calc(100% - 24px*2);
+    width: 768px;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer {
+    padding-top: 64px;
+    flex-direction: column;
+  }
+}
+
+
+
+@media screen and (max-width: calc(424px + 24px*2)) {
+  .footer {
+
+    max-width: calc(100% - 16px*2);
+    width: 424px;
+  }
+}
+
