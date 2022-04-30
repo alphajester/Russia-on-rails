@@ -1,0 +1,7 @@
+.ghost {
+  transition: opacity .2s; 
+}
+
+.ghost:hover {
+  opacity: .8;
+}

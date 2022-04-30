@@ -1,7 +1,0 @@
-.fx__links_are-ghosts {
-  transition: opacity .2s; 
-}
-
-.fx__links_are-ghosts:hover {
-  opacity: .8;
-}

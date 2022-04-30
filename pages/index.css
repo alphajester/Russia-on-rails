@@ -4,7 +4,7 @@
 @import url('../blocks/page/page.css');
 
 /* на выдумки go (раз) */
-@import url('../blocks/fx/__links/_are-ghosts/fx__links_are-ghosts.css');
+@import url('../blocks/ghost/ghost.css');
 
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
