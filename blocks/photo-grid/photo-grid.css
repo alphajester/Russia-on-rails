@@ -56,7 +56,7 @@
 
 @media screen and (max-width: calc(424px + 24px*2)) {
   .photo-grid {
-    max-width: calc(100% -16px*2);
+    max-width: calc(100% - 16px*2);
     width: 424px;
   }
 }
