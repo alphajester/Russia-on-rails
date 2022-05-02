@@ -2,7 +2,10 @@
 
 Страница о путешествиях по самой большой в мире стране — России. Это третий проект на веб-факультете [Практикума](https://practicum.yandex.ru/web/)
 
-[Russia on rails](https://alphajester.github.io/Russia-on-rails/ 'Россия здесь') by [alphajester](https://github.com/alphajester)
+>На pages:
+>
+>>[Russia on rails](https://alphajester.github.io/Russia-on-rails/ 'Россия здесь') by [alphajester](https://github.com/alphajester)
+>
 
 Знакомит посетителя с красотой и природным разнообразием страны. По ссылкам на странице можно продолжить знакомство с необъятной.
 
@@ -11,7 +14,6 @@
 >> git clone https://github.com/alphajester/Russia-on-rails.git
 >
 > *P.S.: имя проекту дал я, оно не повторяется среди студентов* 
-
 
 Состав:
 - структура Nested (по БЭМ)
