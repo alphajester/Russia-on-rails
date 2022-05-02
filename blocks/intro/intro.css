@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: calc(424px +48px*2)) {
+@media screen and (max-width: calc(424px + 48px*2)) {
   .intro {
     max-width: 424px;
     padding: 0 16px;

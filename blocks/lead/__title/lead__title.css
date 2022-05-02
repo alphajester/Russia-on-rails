@@ -7,7 +7,6 @@
 
   max-width: 720px;
   width: calc(100% - 16px*2);
-  /* пока что только усталость от макета)) */
 }
 
 @media screen and (max-width: 767px) {
